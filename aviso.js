@@ -1,6 +1,1 @@
-
-// Contenido de script.js
-function mostrarAlerta() {
-    alert("¡Hola! Esto es una alerta en JavaScript desde un archivo separado.");
-}
-
+alert("Utilizamos cookies propias y de terceros para fines analíticos y para mostrarte publicidad personalizada en base a un perfil elaborado a partir de tus hábitos de navegación (por ejemplo, páginas visitadas). Clica aquí para más información. Puedes aceptar todas las cookies pulsando el botón “Aceptar cookies” o configurarlas o rechazar su uso pulsando el botón ");
