@@ -9,30 +9,6 @@
     <title>Jimacanal</title>
     <link rel="stylesheet" href="./bootstrap.min.css">
        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-
-    <script>
-        // Función para mostrar el banner de aviso legal y cookies
-        function mostrarBanner() {
-            // Verifica si ya se ha aceptado el aviso
-            if (!localStorage.getItem('avisoLegalCookies')) {
-                // Si no se ha aceptado, muestra el banner
-                $('#cookieBanner').slideDown();
-            }
-        }
-
-        // Mostrar el banner al cargar la página
-        $(document).ready(function () {
-            mostrarBanner();
-        });
-
-        // Al hacer clic en el enlace del banner, se acepta el aviso
-        $('.alert-link').on('click', function (e) {
-            e.preventDefault();
-            localStorage.setItem('avisoLegalCookies', true);
-            $('#cookieBanner').slideUp();
-        });
-    </script>
 </head>
 
 <body>
